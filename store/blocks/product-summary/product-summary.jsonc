@@ -3,13 +3,26 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
+      // "product-summary-image#home",
       "flex-layout.col#productRating",
       "product-summary-space",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
       "product-installments#summary",
-      "add-to-cart-button"
+      "add-to-cart-button",
+      "product-location-availability",
+      "product-summary-sku-selector"
+      // "flex-layout.row#product-price"
     ]
+  },
+    "product-location-availability": {
+    "props": {
+      "maxItems": 3,
+      "orderBy": "cheaper",
+      "pickupFirst": false,
+      "showDistance": "miles",
+      "showAddressInfo": true
+    }
   },
   "flex-layout.col#productRating": {
     "props": {

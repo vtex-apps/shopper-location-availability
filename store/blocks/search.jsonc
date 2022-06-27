@@ -309,5 +309,25 @@
       "textColor": "c-auto",
       "blockClass": "layout-option"
     }
+  },
+  "flex-layout.row#header-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#category-menu",
+      "flex-layout.col#spacer",
+      "shopper-location",
+      "search-bar",
+      "locale-switcher",
+      "login",
+      "minicart.v2"
+    ]
   }
 }

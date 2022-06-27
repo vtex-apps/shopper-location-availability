@@ -111,10 +111,40 @@
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
-      "availability-subscriber",
-      "shipping-simulator",
+    "location-context",
       "share#default"
     ]
+  },
+
+    "location-context": {
+    "children": [
+      "modal-trigger#location-availability",
+      "flex-layout.row#location-availability"
+
+    ]
+
+  },
+  "flex-layout.row#location-availability": {
+    "children": [
+      "product-location-pickup-options",
+      "product-location-shipping-options"
+
+    ]
+
+  },
+  "modal-trigger#location-availability": {
+    "children": [
+      "product-location-availability-header",
+      "modal-layout#address"
+    ]
+
+  },
+  "product-location-availability-header": {
+    "props": {
+      "styleAsLink": true
+
+    }
+
   },
 
   "flex-layout.row#product-name": {
