@@ -18,8 +18,8 @@
     "product-location-availability": {
     "props": {
       "maxItems": 3,
-      "orderBy": "cheaper",
-      "pickupFirst": false,
+      "orderBy": "faster",
+      "pickupFirst": true,
       "showDistance": "miles",
       "showAddressInfo": true
     }
